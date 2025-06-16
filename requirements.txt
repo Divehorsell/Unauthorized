@@ -2,5 +2,6 @@ AList==2.0.0
 asana_kazoo==2.0.8dev
 pymongo==4.1.1
 PyMySQL==1.0.2
-requests==2.27.1
+requests==2.32.4
 threadpool==1.3.2
+h11>=0.16.0 # not directly required, pinned by Snyk to avoid a vulnerability
